@@ -60,7 +60,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/LazyDeveloperr/LazyPrincess
+git clone https://github.com/mrmalikoffl/MsFimFactory
 # Install Packages
 pip3 install -U -r requirements.txt
 Edit info.py with variables as given below then run bot
