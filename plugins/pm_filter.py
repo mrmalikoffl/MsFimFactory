@@ -764,9 +764,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("Please check your spelling once again 🤦‍♀️... or \n Find the correct spelling from google 👉"), buttons = [[
-            InlineKeyboardButton('🔍 Google 🔎', url='https://www.google.com/')
-        ]] 
+        k = await msg.reply("Please check your spelling once again 🤦‍♀️... or \n Find the correct spelling from google 👉 & Copy Paste On Group"),  
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -778,12 +776,8 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("Please check your spelling once again 🤦‍♀️... or \n Discuss your problem with our admin here 👉",
+    await msg.reply("Please check your spelling once again 🤦‍♀️... or \n Discuss your problem with our admin here 👉 & Copy Paste On Group",
                     reply_markup=InlineKeyboardMarkup(btn))
-buttons = [[
-            InlineKeyboardButton('🔍 Google 🔎', url='https://www.google.com/')
-        ]]
-
 async def manual_filters(client, message, text=False):
     group_id = message.chat.id
     name = text or message.text
