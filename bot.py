@@ -93,14 +93,6 @@ class Bot(Client):
             for message in messages:
                 yield message
                 current += 1
-
-async def get_shortlink(link):
-    url = URL_SHORTNER_WEBSITE
-    params = {'api': URL_SHORTNER_WEBSITE_API, 'url': link}
-
-    async with aiohttp.ClientSession() as session:
-        async with session.get(url, params=params, raise_for_status=True) as response:
-            data = await response.json()
-            return data["shortenedUrl"]
+                
 app = Bot()
 app.run()
