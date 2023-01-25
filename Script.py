@@ -4,10 +4,11 @@ Myself <a href=https://t.me/{}>{}</a>,\n\nTrust me ! I can't even imagine how su
     HELP_TXT = """𝙷𝙴𝚈 {}
 Here is the help for my COMMANDS."""
     ABOUT_TXT = """
-╔════❰ MS FILM FACTORY ❱═❍⊱❁۪۪
+╔════❰ SPIDER MAN ❱═❍⊱❁۪۪
 ║ ┏━━━━━━━━━━━━━━━➣
 ║ ┣⪼ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-║ ┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: ✨ <a href=https://t.me/mrmalik_offl>Mr Malik</a> ✨
+║ ┣⪼ 𝙾𝚆𝙽𝙴𝚁: ✨ <𝚊 𝚑𝚛𝚎𝚏=𝚑𝚝𝚝𝚙𝚜://𝚝.𝚖𝚎/𝚛𝚘𝚕𝚎𝚡_𝚜𝚒𝚛_𝟸𝟸>𝚁𝙾𝙻𝙴𝚇</𝚊> ✨
+║ ┣⪼ 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁: ✨ <𝚊 𝚑𝚛𝚎𝚏=𝚑𝚝𝚝𝚙𝚜://𝚝.𝚖𝚎/𝚖𝚛𝚖𝚊𝚕𝚒𝚔_𝚘𝚏𝚏𝚕>𝙼𝚛 𝙼𝚊𝚕𝚒𝚔</𝚊> ✨ ✨
 ║ ┣⪼ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ║ ┣⪼ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ║ ┣⪼ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
@@ -97,7 +98,7 @@ This module only works for my admins
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
     STATUS_TXT = """
-╔════❰ MS FILM FACTORY ❱═❍⊱❁۪۪
+╔════❰ SPIDER MAN ❱═❍⊱❁۪۪
 ║┏━━━━━━━━━━━━━━━➣
 ║┣⪼ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
 ║┣⪼ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
